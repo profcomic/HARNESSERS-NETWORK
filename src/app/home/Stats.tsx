@@ -77,10 +77,10 @@ export default function Stats() {
               LATEST NEWS
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed max-w-md mb-6"> 
-               We are happy to announce that we are launching two new "mini projects" with which we want to 
-               make our environment more meaningful and sustainable. 
-               Our Harnessers Food Garden will benefit from a "Gardening Project" with which we plant herbs and 
-               vegetables, while our ICT lab is yet to be planned for.
+              We are happy to announce that we are launching two new &quot;mini projects&quot; with which we want to
+              make our environment more meaningful and sustainable.
+              Our Harnessers Food Garden will benefit from a &quot;Gardening Project&quot; with which we plant herbs and
+              vegetables, while our ICT lab is yet to be planned for.
             </p>
             <a 
               href="#about" 
@@ -119,7 +119,7 @@ export default function Stats() {
           OUR REACH
         </h1>
         <p className="text-center text-white text-sm mb-10">
-          Lets Growing Together [TARGET FOR THE NEXT SIX MONTHS]
+          Let&apos;s Grow Together [TARGET FOR THE NEXT SIX MONTHS]
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {stats.map((s) => (

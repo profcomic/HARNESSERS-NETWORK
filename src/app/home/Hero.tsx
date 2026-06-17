@@ -51,9 +51,9 @@ export default function Hero() {
               OUR STORY
             </h3>
             <p className="text-sm md:text-base text-gray-700 leading-relaxed max-w-md mb-6">
-             The Harnessers Youths' Self-Help Group — was launched in 2026 and is  a registered 
-             Kenyan Self Help Group uniting youth to build skills, generate income, and uplift our
-             communities together.
+                The Harnessers Youths&apos; Self-Help Group — was launched in 2026 and is a registered
+                Kenyan Self Help Group uniting youth to build skills, generate income, and uplift our
+                communities together.
             </p>
             <a 
               href="#about" 

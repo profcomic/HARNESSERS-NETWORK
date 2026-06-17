@@ -42,7 +42,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 text-xl text-white/75 max-w-2xl leading-relaxed">
-          The Harnessers Youths' Self-Help Group — a registered Kenyan SHG
+          The Harnessers Youths&apos; Self-Help Group — a registered Kenyan SHG
           uniting youth to build skills, generate income, and uplift our
           communities together.
         </p>

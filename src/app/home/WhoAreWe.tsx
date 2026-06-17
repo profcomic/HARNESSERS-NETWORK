@@ -17,7 +17,7 @@ export default function About() {
             A community built on mutual growth
           </h2>
           <p className="text-slate-500 leading-relaxed mb-4">
-            The Harnessers Youths' Self-Help Group (SHG) is a duly registered
+            The Harnessers Youths&apos; Self-Help Group (SHG) is a duly registered
             self-help group under the Ministry of East African Community, Labour
             and Social Protection in the Republic of Kenya.
           </p>
@@ -51,8 +51,8 @@ export default function About() {
               advocacy, and sustainable income generation for all members.
             </p>
             <div className="mt-8 pt-6 border-t border-white/10">
-              <p className="text-[#B8952A] italic text-sm font-medium">
-                "Committed to Maximizing Potential for Endless Growth"
+                <p className="text-[#B8952A] italic text-sm font-medium">
+                   &quot;Committed to Maximizing Potential for Endless Growth&quot;
               </p>
             </div>
           </div>
