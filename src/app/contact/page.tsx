@@ -1,3 +1,5 @@
+"use client";
+
 import PageHero from "@/components/Universals/PageHero";
 import ChatWithUs from "@/components/Universals/ChatWithUs";
 import Footer from "@/components/Universals/Footer";
