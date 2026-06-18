@@ -51,15 +51,15 @@ export default function ContactPage() {
           {/* Header */}
           <div className="text-center mb-16">
             <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-3">
-              Let's Connect
+              Let&apos;s Connect
             </p>
 
             <h2 className="text-4xl font-black text-[#1E3A4A] mb-4">
-              We'd Love To Hear From You
+              We&apos;d Love To Hear From You
             </h2>
 
             <p className="text-slate-500 max-w-2xl mx-auto">
-              Whether you're interested in becoming a member,
+              Whether you&apos;re interested in becoming a member,
               partnering with us, volunteering, or supporting our
               mission, our team is ready to help.
             </p>
