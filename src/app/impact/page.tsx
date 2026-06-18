@@ -125,7 +125,7 @@ export default function ImpactPage() {
                   </p>
 
                   <p className="text-slate-500 text-sm leading-relaxed italic">
-                    "{quote}"
+                    &ldquo;{quote}&rdquo;
                   </p>
                 </div>
               </div>
