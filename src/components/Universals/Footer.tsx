@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 export default function Footer() {
   return (
     <footer className="bg-[#1E3A4A] text-white">
@@ -50,12 +48,12 @@ export default function Footer() {
         </div>
 
         {/* Column 3: Newsletter */}
-        <div>
+        <div id="newsletter">
           <h4 className="text-xs font-black uppercase tracking-[0.18em] mb-4 text-white">
             Subscribe to Our Newsletter
           </h4>
           <p className="text-slate-400 text-sm mb-4 leading-relaxed">
-            Stay updated on our programs, events, and community impact.
+            Stay updated on our programs, events, blogs, articles and community impact.
           </p>
           <form
             onSubmit={(e) => e.preventDefault()}
@@ -78,7 +76,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="bg-[#29b6c8] border-t border-white/10 py-4 text-center">
-        <p className="text-#1E3A4A text-xs tracking-widest uppercase">
+        <p className="text-[#1E3A4A] text-xs tracking-widest uppercase font-semibold">
           Registered SHG · Ministry of East African Community, Labour &amp; Social Protection · Kenya
         </p>
       </div>

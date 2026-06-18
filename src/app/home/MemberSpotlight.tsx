@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function MemberSpotlight() {
   return (
     <section className="grid md:grid-cols-2 min-h-[400px]">
-      {/* Left: photo — replace bg with actual image */}
+      {/* Left: photo — replace bg with actual member photo when available */}
       <div
-        className="relative bg-cover bg-center bg-slate-700 min-h-[320px]"
-        style={{ backgroundImage: "url('/images/member-spotlight.jpg')" }}
+        className="relative bg-cover bg-center bg-gradient-to-br from-[#1A3D5C] to-[#2E5F7A] min-h-[320px]"
+        style={{ backgroundImage: "url('/images/join-us.png')" }}
       >
-        {/* Fallback gradient if no image */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1A3D5C]/80 to-[#2E5F7A]/60" />
+        {/* Tint overlay for legibility and brand consistency */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1A3D5C]/85 to-[#2E5F7A]/70" />
       </div>
 
       {/* Right: story card */}

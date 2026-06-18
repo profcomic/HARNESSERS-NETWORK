@@ -21,9 +21,9 @@ export default function HowItWorks() {
     <section className="py-24 bg-slate-50">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-14">
-          <p className="text-[#B8952A] text-xs font-bold uppercase tracking-[0.15em] mb-2">
+          <h1 className="text-[#B8952A] text-4xl font-bold uppercase tracking-[0.15em] mb-2">
             How It Works
-          </p>
+          </h1>
           <h2 className="text-4xl lg:text-5xl font-black text-[#1A3D5C]">
             Your Journey With Us
           </h2>

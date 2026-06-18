@@ -12,6 +12,7 @@ const sources = [
   { icon: "📈", title: "Surplus from Operations", desc: "Any surplus resulting from the organization's income-generating projects." },
   { icon: "🤲", title: "Donations & Grants", desc: "Accepted from individuals, organizations, and funding bodies aligned with our mission." },
   { icon: "🏦", title: "Loans from Financial Institutions", desc: "The group may access institutional loans to fund approved projects." },
+  { icon: "💰", title: "Ploughing Back Profit From Projects", desc: "Any amount received from a successful project or initiative." },
 ];
 
 const principles = [
@@ -41,11 +42,11 @@ export default function FundsManagementPage() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-2">Where Funds Come From</p>
+            <h1 className="text-[#29b6c8] text-4xl font-bold uppercase tracking-[0.2em] mb-2">Where Funds Come From</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A]">Sources of Funds</h2>
             <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mt-4" />
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {sources.map(({ icon, title, desc }) => (
               <div key={title} className="bg-slate-50 rounded-xl p-6 text-center border border-slate-200 hover:border-[#29b6c8] transition-all">
                 <div className="text-3xl mb-3">{icon}</div>
@@ -61,7 +62,7 @@ export default function FundsManagementPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-2">How We Manage Money</p>
+            <h1 className="text-[#29b6c8] text-4xl font-bold uppercase tracking-[0.2em] mb-2">How We Manage Money</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A]">Our Financial Principles</h2>
             <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mt-4" />
           </div>

@@ -4,7 +4,7 @@ import ContactUs from "@/components/Universals/ContactUs";
 import ChatWithUs from "@/components/Universals/ChatWithUs";
 import Hero from "@/app/home/Hero";
 import Stats from "@/app/home/Stats";
-import WhoAreWe from "@/app/home/WhoAreWe";
+import SpotlightProject from "@/app/home/SpotlightProject";
 import HowWeDoIt from "@/app/home/HowWeDoIt";
 import CTA from "@/components/Universals/CTA";
 import HowItWorks from "@/app/home/HowItWorks";
@@ -24,7 +24,7 @@ export default function Home() {
       <ChatWithUs />
       <Hero />
       <Stats />
-      <WhoAreWe />
+      <SpotlightProject />
       <HowWeDoIt/>
       <CTA />
       <HowItWorks />

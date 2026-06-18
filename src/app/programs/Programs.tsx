@@ -33,18 +33,29 @@ const programs = [
 
 export default function Programs() {
   return (
-    <section id="programs" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-14">
-          <p className="text-[#B8952A] text-5xl font-bold uppercase tracking-[0.15em] mb-2">
-            What We Stand For
-          </p>
-          <h2 className="text-sm lg:text-xl font-black text-[#1A3D5C]">
+    <section className="w-full flex flex-col">
+      {/* Top Header Bar Container */}
+      <div className="w-full bg-[#eaeaea] py-8 md:py-12 border-b border-gray-200 text-center">
+        <h1 className="text-3xl md:text-4xl font-black uppercase tracking-[0.15em] text-[#1E3A4A]">
+          What We Stand For
+        </h1>
+        <p className="text-xl lg:text-xl font-black text-[#1A3D5C]">
             Our Core Programs
-          </h2>
-        </div>
+        </p>
+       
+      </div>
+      {/* Main Scenery Content Container */}
+      <div
+        className="w-full bg-cover bg-center relative py-16 md:py-24 px-6 flex items-center justify-center min-h-[550px]"
+        style={{
+          backgroundImage: "url('/images/howwedoit-bg.png')", 
+        }}
+      >
+        {/* Subtle overlay layer to make text and cards pop over the landscape background */}
+        <div className="absolute inset-0 bg-black/5 pointer-events-none" />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* programs cards */}
+         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {programs.map(({ icon, title, desc }) => (
             <div
               key={title}
@@ -60,3 +71,4 @@ export default function Programs() {
     </section>
   );
 }
+

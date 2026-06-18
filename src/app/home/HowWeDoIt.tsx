@@ -15,21 +15,21 @@ const steps: StepItem[] = [
     title: "ELIGIBILITY & ORIENTATION",
     description:
       "New members are introduced to our core values, ensuring readiness to serve our objectives. Open to any youth who is mentally stable, of good character, and verified by at least 5 active group members upon standard registration fee clearance.",
-    href: "#membership",
+    href: "/join",
   },
   {
     number: 2,
     title: "PROJECTS & SKILLS TRAINING",
     description:
       "Members are equipped through targeted classes, workshops, and lectures. We focus heavily on educating the community on socio-economic life skills, implementing local capital investment plans, and active environmental protection advocacy.",
-    href: "#about",
+    href: "/programs",
   },
   {
     number: 3,
     title: "INCOME GENERATION",
     description:
       "We design and execute sustainable, income-generating projects directly for our members. By fostering actionable skills and true self-sufficiency, we empower youth all-roundedly to uplift households and transform entire local communities.",
-    href: "#about",
+    href: "/current-projects",
   },
 ];
 

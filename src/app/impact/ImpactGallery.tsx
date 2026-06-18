@@ -72,7 +72,7 @@ export default function ImpactPage() {
           </div>
         </div>
       </section>
-      
+
       <DonateBanner />
       <Footer />
     </>

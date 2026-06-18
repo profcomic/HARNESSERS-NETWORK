@@ -6,23 +6,27 @@ const pillars = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-slate-50">
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+    <section id="who-we-are" className="relative p-8 md:p-12 lg:p-20 bg-cover bg-center"
+            style={{ backgroundImage: "url('/images/join-us.png')" }}
+    >
+       {/* Overlay color tint for legibility */}
+      <div className="absolute inset-0 bg-[#1E3A4A]/85" />
+      <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
         {/* Text */}
         <div>
-          <p className="text-[#B8952A] text-xs font-bold uppercase tracking-[0.15em] mb-3">
+          <h1 className="text-[#F5C518] text-4xl font-bold uppercase tracking-[0.15em] mb-3">
             Who We Are
-          </p>
-          <h2 className="text-4xl lg:text-5xl font-black text-[#1A3D5C] leading-tight mb-6">
+          </h1>
+          <h2 className="text-4xl lg:text-5xl font-black text-white leading-tight mb-6">
             A community built on mutual growth
           </h2>
-          <p className="text-slate-500 leading-relaxed mb-4">
+          <p className="text-white/85 leading-relaxed mb-4">
             The Harnessers Youths&apos; Self-Help Group (SHG) is a duly registered
             self-help group under the Ministry of East African Community, Labour
             and Social Protection in the Republic of Kenya.
           </p>
-          <p className="text-slate-500 leading-relaxed mb-8">
-            Open to all Kenyan youth as defined under Article 260 of the
+          <p className="text-white/75 leading-relaxed mb-8">
+            Open to all youths [18-35yrs] as defined under Article 260 of the
             Constitution of Kenya, we combine resources, knowledge, and passion
             to create lasting change in our communities.
           </p>
@@ -31,8 +35,8 @@ export default function About() {
           <div className="flex flex-wrap gap-8">
             {pillars.map(({ value, label }) => (
               <div key={label}>
-                <div className="text-2xl font-black text-[#1A3D5C]">{value}</div>
-                <div className="text-xs text-slate-400 uppercase tracking-widest mt-0.5">
+                <div className="text-2xl font-black text-[#F5C518]">{value}</div>
+                <div className="text-xs text-white/60 uppercase tracking-widest mt-0.5">
                   {label}
                 </div>
               </div>
@@ -40,15 +44,15 @@ export default function About() {
           </div>
         </div>
 
-        {/* Mission card */}
+        {/* Code of conduct card */}
         <div className="relative">
           <div className="bg-gradient-to-br from-[#1A3D5C] to-[#2E5F7A] rounded-2xl p-10 shadow-2xl shadow-[#1A3D5C]/30">
             <div className="text-5xl mb-5">✊</div>
-            <h3 className="text-white font-black text-2xl mb-4">Our Mission</h3>
+            <h3 className="text-white font-black text-2xl mb-4">Our Code Of Conduct</h3>
             <p className="text-white/75 leading-relaxed">
-              To empower youth and the community holistically — through
-              education, co-operative investment, charity, environmental
-              advocacy, and sustainable income generation for all members.
+              WE CONTRIBUTE TOGETHER;<br/> 
+              SUPPORT EACH OTHER;<br/>
+              GROW TOGETHER.
             </p>
             <div className="mt-8 pt-6 border-t border-white/10">
                 <p className="text-[#B8952A] italic text-sm font-medium">

@@ -2,8 +2,7 @@ export default function Quote() {
   return (
     <section className="py-20 bg-white text-center">
       <div className="max-w-3xl mx-auto px-6">
-        <h2
-          className="text-4xl md:text-5xl font-black leading-snug text-[#29b6c8]"
+        <h2 className="text-4xl md:text-5xl font-black leading-snug text-[#29b6c8]"
           style={{ fontFamily: "Georgia, 'Times New Roman', serif", fontStyle: "italic" }}
         >
           The best support is<br />self-support!

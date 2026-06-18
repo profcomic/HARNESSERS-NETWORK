@@ -18,9 +18,9 @@ export default function CTA() {
       </div>
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-        <p className="text-[#B8952A] text-xs font-bold uppercase tracking-[0.15em] mb-3">
+        <h1 className="text-[#B8952A] text-4xl font-bold uppercase tracking-[0.15em] mb-3">
           Join the Movement
-        </p>
+        </h1>
         <h2 className="text-4xl lg:text-5xl font-black text-white leading-tight mb-5">
           Ready to harness your potential?
         </h2>

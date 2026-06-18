@@ -7,11 +7,11 @@ import Navbar from "@/components/Universals/Navbar";
 import SocialSidebar from "@/components/Universals/SocialSidebar";
 
 const projects = [
-  { tag: "Active", color: "bg-green-100 text-green-700", title: "Youth Skills Bootcamp 2025", location: "Nairobi", desc: "A 6-week intensive bootcamp covering digital literacy, financial management, and entrepreneurship for 30 registered members.", goal: "Ksh 120,000", raised: "Ksh 80,000", pct: 67 },
-  { tag: "Active", color: "bg-green-100 text-green-700", title: "Community Tree-Planting Drive", location: "Nairobi Environs", desc: "Planting 500 indigenous trees across three local schools in partnership with the County Environment Office.", goal: "Ksh 45,000", raised: "Ksh 45,000", pct: 100 },
-  { tag: "Upcoming", color: "bg-yellow-100 text-yellow-700", title: "Holiday Food Drive", location: "Nairobi", desc: "Annual December food collection and distribution drive targeting 200 vulnerable households in our community.", goal: "Ksh 60,000", raised: "Ksh 12,000", pct: 20 },
+  { tag: "Upcoming", color: "bg-green-100 text-green-700", title: "Youth Skills Bootcamp 2027", location: "Mombasa", desc: "A 6-week intensive bootcamp covering digital literacy, financial management, and entrepreneurship for 50 registered members.", goal: "Ksh 120,000", raised: "Ksh 30,000", pct: 20 },
+  { tag: "Active", color: "bg-green-100 text-green-700", title: "Community Tree-Planting Drive", location: "Mombasa Environs", desc: "Planting Atleast 500 indigenous trees across three local schools in partnership with the County Environment Office.", goal: "Ksh 45,000", raised: "Ksh 45,000", pct: 100 },
+  { tag: "Active", color: "bg-yellow-100 text-yellow-700", title: "Holiday Food Drive", location: "Mombasa", desc: "Annual December food collection and distribution drive targeting 200 vulnerable households in our community.", goal: "Ksh 60,000", raised: "Ksh 5,000", pct: 1 },
   { tag: "Upcoming", color: "bg-yellow-100 text-yellow-700", title: "Members Savings & Loan Fund", location: "Group-wide", desc: "Expanding the group loan fund to increase per-member loan limits and reduce interest rates for qualifying members.", goal: "Ksh 500,000", raised: "Ksh 210,000", pct: 42 },
-  { tag: "Completed", color: "bg-slate-100 text-slate-600", title: "Constitution Drafting & Registration", location: "Nairobi", desc: "Successfully drafted, agreed, and registered the group constitution with the Ministry of Labour & Social Protection.", goal: "Done", raised: "Done", pct: 100 },
+  { tag: "Completed", color: "bg-slate-100 text-slate-600", title: "Constitution Drafting & Registration", location: "Committee", desc: "Successfully drafted, agreed, and registered the group constitution with the Ministry of Labour & Social Protection.", goal: "Done", raised: "Done", pct: 100 },
 ];
 
 export default function CurrentProjectsPage() {

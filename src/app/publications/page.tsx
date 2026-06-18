@@ -8,10 +8,10 @@ import SocialSidebar from "@/components/Universals/SocialSidebar";
 
 
 const publications = [
-  { type: "Constitution", date: "2024", title: "Harnessers Youths' SHG Constitution", desc: "The founding governance document of the organization — covering membership, obligations, elections, meetings, finances, and amendments.", file: "/documents/constitution.pdf" },
-  { type: "Annual Report", date: "2024", title: "Annual Report 2024", desc: "A comprehensive overview of our activities, financial position, membership growth, and project outcomes for the year.", file: "#" },
-  { type: "Newsletter", date: "Q1 2025", title: "Harnessers Quarterly — Q1 2025", desc: "Member updates, project spotlights, upcoming events, and committee announcements for the first quarter of 2025.", file: "#" },
-  { type: "Policy", date: "2024", title: "Loan Policy & Guidelines", desc: "The full terms and conditions governing member loans — eligibility, limits, interest, repayment schedules, and default procedures.", file: "#" },
+  { type: "Constitution", date: "2025/26", title: "Harnessers Youths' SHG Constitution", desc: "The founding governance document of the organization — covering membership, obligations, elections, meetings, finances, and amendments.", file: "/documents/HYN-Constitution.pdf" },
+  { type: "Annual Report", date: "2025/26", title: "Annual Report 2025/26", desc: "A comprehensive overview of our activities, financial position, membership growth, and project outcomes for the year.", file: "#" },
+  { type: "Newsletter", date: "Q1 2026", title: "Harnessers Quarterly — Q1 2026", desc: "Member updates, project spotlights, upcoming events, and committee announcements for the first quarter of 2026.", file: "#" },
+  { type: "Policy", date: "2025", title: "Loan Policy & Guidelines", desc: "The full terms and conditions governing member loans — eligibility, limits, interest, repayment schedules, and default procedures.", file: "#" },
 ];
 
 export default function PublicationsPage() {

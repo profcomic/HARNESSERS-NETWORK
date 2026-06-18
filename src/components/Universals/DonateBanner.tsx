@@ -17,7 +17,7 @@ export default function DonateBanner() {
           href="/donate"
           className="flex-shrink-0 border-2 border-white text-white hover:bg-white hover:text-[#8B3A2A] font-bold text-sm uppercase tracking-widest px-8 py-3 rounded transition-colors"
         >
-          Donate Now
+          Support Us
         </Link>
       </div>
     </section>

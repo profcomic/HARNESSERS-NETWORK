@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import { useEffect, useRef, useState } from "react";
 
 function useCountUp(target: number, duration = 2000, active = false) {
@@ -82,12 +84,11 @@ export default function Stats() {
               Our Harnessers Food Garden will benefit from a &quot;Gardening Project&quot; with which we plant herbs and
               vegetables, while our ICT lab is yet to be planned for.
             </p>
-            <a 
-              href="#about" 
+            <Link  href="/blog" 
               className="text-[#f4f4f4] hover:text-[#1E3A4A] text-sm font-bold tracking-wide underline decoration-2 transition-colors"
             >
-              Learn more
-            </a>
+              Read more on our Blog
+            </Link>
           </div>
           <div 
             className="md:col-span-2 relative p-8 md:p-12 flex flex-col justify-center items-center text-center min-h-[250px] md:min-h-[300px] bg-cover bg-center"
@@ -103,12 +104,12 @@ export default function Stats() {
               <p className="text-sm md:text-base text-gray-700 leading-relaxed max-w-md mb-6"> 
                Subscribe to Our Newsletter
               </p>
-              <a 
-                href="#membership" 
+              <Link 
+                href="/#newsletter"
                 className="bg-white hover:bg-gray-100 text-[#CC5A43] font-bold text-xs tracking-wider uppercase px-8 py-3 rounded-full shadow-md transition-all transform hover:scale-105"
               >
                 JOIN OUR COMMUNITY
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -6,17 +6,19 @@ import Navbar from "@/components/Universals/Navbar";
 import SocialSidebar from "@/components/Universals/SocialSidebar";
 
 const eligibility = [
-  { icon: "🗺️", title: "Any Youth above 18 years", desc: "Open to all Kenyan youth by birth, domicile, or permanent residence — as defined in Article 260 of the Constitution of Kenya, including school-going students." },
+  { icon: "🗺️", title: "Any Youth above 18 years", desc: "Open to all youth by birth, domicile, or permanent residence — as defined in Article 260 of the Constitution of Kenya, including school-going students." },
   { icon: "✅", title: "Good Character", desc: "The member must be of good character and willing to help achieve the group's objectives." },
-  { icon: "🤝", title: "Known by 5 Members", desc: "You must be known and vouched for by at least 5 existing members of the organization." },
+  { icon: "🤝", title: "Known by Atleast 3 Members", desc: "You must be known and vouched for by at least 3 existing members of the organization." },
   { icon: "🧠", title: "Mentally Stable", desc: "Open to any youth who is mentally stable and ready to be empowered." },
 ];
 
 const steps = [
   { num: "01", title: "Express Interest", desc: "Reach out to us via email or phone and express your interest in joining. A committee member will get back to you." },
-  { num: "02", title: "Meet 5 Members", desc: "Attend a group meeting to meet current members. You need to be known and vouched for by at least 5 existing members." },
-  { num: "03", title: "Pay Registration Fee", desc: "Pay the one-time non-refundable registration fee of Ksh 1,000 to formalize your membership." },
-  { num: "04", title: "Welcome & Onboard", desc: "You will be officially inducted, receive a copy of the constitution, and begin your monthly contributions of Ksh 200." },
+  { num: "02", title: "Meet 3 Members", desc: "Attend a group meeting to meet current members. You need to be known and vouched for by at least 3 existing members." },
+  { num: "03", title: "Documentation", desc: "You will be taken through a letter of constent, signing major documents and added to our online system." },
+  { num: "04", title: "Pay Registration Fee", desc: "Pay the one-time non-refundable registration fee of Ksh 1,000 to formalize your membership." },
+  { num: "05", title: "Welcome & Onboard", desc: "You will be officially inducted, oriented and receive a copy of the constitution, and begin your monthly contributions of Ksh 200 while being incubated for atleast 2 months [Probation]." },
+  { num: "06", title: "Fully Member", desc: "After the incubation period, if you meet the code of conduct & met the requirements, you'll be induced into full membership." },
 ];
 
 export default function JoinPage() {
@@ -38,7 +40,7 @@ export default function JoinPage() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-2">Are You Eligible?</p>
+            <h1 className="text-[#29b6c8] text-2xl font-bold uppercase tracking-[0.2em] mb-2">Are You Eligible?</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A]">Membership Requirements</h2>
             <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mt-4" />
           </div>
@@ -58,7 +60,7 @@ export default function JoinPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-[#29b6c8] text-xl font-bold uppercase tracking-[0.2em] mb-2">How to Join</p>
+            <h1 className="text-[#29b6c8] text-3xl font-bold uppercase tracking-[0.2em] mb-2">How to Join</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A]">4 Simple Steps</h2>
             <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mt-4" />
           </div>
@@ -77,7 +79,7 @@ export default function JoinPage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-20 bg-[#29b6c8] text-center">
+      <section id="CTA" className="py-20 bg-[#29b6c8] text-center">
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="text-3xl font-black text-white mb-4">Ready to Join?</h2>
           <p className="text-white/70 text-sm leading-relaxed mb-8">Send us a message and a committee member will guide you through the process.</p>

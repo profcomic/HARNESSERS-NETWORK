@@ -8,14 +8,14 @@ import SocialSidebar from "@/components/Universals/SocialSidebar";
 
 
 const board = [
-  { role: "Chairperson", name: "[ Name ]", bio: "The Chairperson presides over all meetings, represents the organization, and ensures the constitution is upheld in all decisions." },
-  { role: "Vice Chairperson", name: "[ Name ]", bio: "Supports the Chairperson in all duties and steps in during absences to ensure smooth leadership continuity." },
-  { role: "Secretary", name: "[ Name ]", bio: "Records all organizational correspondence, reads previous minutes, files records, and ensures accurate documentation of all proceedings." },
-  { role: "Treasurer", name: "[ Name ]", bio: "Receives and disburses all organizational funds, issues receipts, and maintains proper books of accounts available for inspection." },
-  { role: "Organizing Secretary", name: "[ Name ]", bio: "Co-ordinates all activities aimed at fulfilling the organization's objectives and assists the Secretary as assigned." },
-  { role: "Committee Member", name: "[ Name ]", bio: "Participates in committee decisions, helps execute policy, and represents member interests in governance." },
-  { role: "Committee Member", name: "[ Name ]", bio: "Participates in committee decisions, helps execute policy, and represents member interests in governance." },
-  { role: "Committee Member", name: "[ Name ]", bio: "Participates in committee decisions, helps execute policy, and represents member interests in governance." },
+  { role: "Chairperson", name: "Anthonney Mwanzah", bio: "The Chairperson presides over all meetings, represents the organization, and ensures the constitution is upheld in all decisions." },
+  { role: "Vice Chairperson", name: "N/A", bio: "Supports the Chairperson in all duties and steps in during absences to ensure smooth leadership continuity." },
+  { role: "Secretary", name: "Ibrahim Origha", bio: "Records all organizational correspondence, reads previous minutes, files records, and ensures accurate documentation of all proceedings." },
+  { role: "Treasurer", name: "Victoria Phelicia", bio: "Receives and disburses all organizational funds, issues receipts, and maintains proper books of accounts available for inspection." },
+  { role: "Organizing Secretary", name: "Victoria Phelicia", bio: "Co-ordinates all activities aimed at fulfilling the organization's objectives and assists the Secretary as assigned." },
+  { role: "Committee Member", name: "Peter Lewa", bio: "Participates in committee decisions, helps execute policy, and represents member interests in governance." },
+  { role: "Committee Member", name: "Esther James", bio: "Participates in committee decisions, helps execute policy, and represents member interests in governance." },
+  { role: "Committee Member", name: "Emmanuel Mdzomba", bio: "Participates in committee decisions, helps execute policy, and represents member interests in governance." },
 ];
 
 export default function TeamPage() {
@@ -62,9 +62,9 @@ export default function TeamPage() {
       </section>
 
       {/* Committee duties */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-[#F5C518]">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-3">Governance</p>
+          <h1 className="text-[#29b6c8] text-4xl font-bold uppercase tracking-[0.2em] mb-3">Governance</h1>
           <h2 className="text-3xl font-black text-[#1E3A4A] mb-8">What the Committee Does</h2>
           <div className="grid sm:grid-cols-2 gap-4 text-left">
             {[

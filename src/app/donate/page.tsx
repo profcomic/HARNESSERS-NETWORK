@@ -38,7 +38,7 @@ export default function DonatePage() {
         <div className="max-w-5xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
           {/* Donation form */}
           <div>
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-3">Make a Donation</p>
+            <h1 className="text-[#29b6c8] text-2xl font-bold uppercase tracking-[0.2em] mb-3">Make a Donation</h1>
             <h2 className="text-3xl font-black text-[#1E3A4A] mb-8">Choose an Amount</h2>
             <div className="grid grid-cols-3 gap-3 mb-4">
               {amounts.map((a) => (
@@ -57,7 +57,7 @@ export default function DonatePage() {
                 className="w-full border-2 border-slate-200 focus:border-[#29b6c8] rounded-lg px-4 py-3 text-sm text-[#1E3A4A] outline-none mb-4 transition-colors" />
             )}
             <div className="space-y-3 mb-6">
-              {[["M-Pesa", "Pay directly via M-Pesa to our registered Paybill"], ["Bank Transfer", "Direct bank transfer to our registered account"]].map(([label, desc]) => (
+              {[["M-Pesa", "Pay directly via M-Pesa to our registered Paybill"], ["Bank Transfer", "Direct bank transfer to our registered account"], ["SendWave", "The digital way of Sending Money from any country globally"]].map(([label, desc]) => (
                 <label key={label} className="flex items-start gap-3 p-4 border border-slate-200 rounded-lg cursor-pointer hover:border-[#29b6c8] transition-colors">
                   <input type="radio" name="method" className="mt-0.5 accent-[#29b6c8]" defaultChecked={label === "M-Pesa"} />
                   <div>
@@ -75,7 +75,7 @@ export default function DonatePage() {
 
           {/* Impact breakdown */}
           <div>
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-3">Your Impact</p>
+            <h1 className="text-[#29b6c8] text-2xl font-bold uppercase tracking-[0.2em] mb-3">Your Impact</h1>
             <h2 className="text-3xl font-black text-[#1E3A4A] mb-8">What Your Gift Does</h2>
             <div className="space-y-4">
               {uses.map(({ icon, amount, impact }) => (

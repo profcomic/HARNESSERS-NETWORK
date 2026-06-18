@@ -15,7 +15,9 @@ export default function WorkInAction() {
           </h2>
           <div className="w-10 h-0.5 bg-[#B8952A] mt-4 mb-6" />
           <p className="text-white/75 text-sm md:text-base leading-relaxed max-w-md">
-            Watch our featured video to learn more about the ongoing work of **The Harnessers Youths&apos; Self-Help Group** and see how we are dynamically transforming local communities across Kenya.
+            Watch our featured video to learn more about the ongoing work of{" "}
+            <span className="font-bold text-white">The Harnessers Youths&apos; Self-Help Group</span>{" "}
+            and see how we are dynamically transforming local communities across Kenya.
           </p>
         </div>
 
@@ -23,8 +25,8 @@ export default function WorkInAction() {
         <div className="relative aspect-video rounded-sm overflow-hidden shadow-2xl bg-black group cursor-pointer w-full">
           {/* Video Poster Thumbnail Background Layout Overlay */}
           <div 
-            className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-            style={{ backgroundImage: "url('/images/video-placeholder.jpg')" }}
+            className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105 bg-gradient-to-br from-[#0D2235] to-[#2E5F7A]"
+            style={{ backgroundImage: "url('/images/herosection-bg.png')" }}
           />
           
           {/* Soft Tint Overlay Layer containing Interactive Play Actions */}

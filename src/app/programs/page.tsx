@@ -33,8 +33,11 @@ export default function ProgramsPage() {
 
       <Programs />
 
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-white"> 
         <div className="max-w-7xl mx-auto px-6 space-y-16">
+            <h1 className="text-3xl md:text-4xl font-black uppercase tracking-[0.15em] text-[#1E3A4A] text-center">
+              Major Steps
+            </h1>
           {programs.map(({ num, title, desc }, i) => (
             <div key={num} className={`grid md:grid-cols-2 gap-12 items-center ${i % 2 !== 0 ? "md:[direction:rtl]" : ""}`}>
               {/* Photo */}

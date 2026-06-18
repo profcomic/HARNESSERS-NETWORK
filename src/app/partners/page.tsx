@@ -9,12 +9,12 @@ import SocialSidebar from "@/components/Universals/SocialSidebar";
 import Link from "next/link";
 
 const partners = [
-  { name: "Ministry of Labour & Social Protection", type: "Government", desc: "The Ministry under which Harnessers is officially registered as a Self-Help Group in Kenya.", abbr: "MoLSP" },
-  { name: "Kenya Youth Fund", type: "Funding", desc: "Provides capital grants to registered youth groups for income-generating and community development projects.", abbr: "KYF" },
-  { name: "Uwezo Fund", type: "Funding", desc: "National fund supporting youth, women, and persons with disability-led enterprises across Kenya.", abbr: "UF" },
-  { name: "Local CBO Network", type: "Community", desc: "A network of community-based organizations collaborating on grassroots empowerment initiatives.", abbr: "LCBON" },
+  { name: "Phroneo Spectacular Space", type: "Partner", desc: "A creative and community space collaborating with Harnessers on youth-focused events, branding, content creation, outreach, and technological initiatives.", abbr: "PSS" },
+  { name: "Women Of Value", type: "Community", desc: "A women-led organization partnering with Harnessers on empowerment and mentorship programs.", abbr: "WOV" },
+  { name: "PalmGold Agency", type: "Partner", desc: "An agency supporting Harnessers with mentorship and capacity-building initiatives.", abbr: "PGA" },
+  { name: "Shofco Organization", type: "Community", desc: "A leading grassroots organization collaborating with Harnessers on community development programs.", abbr: "SHOFCO" },
   { name: "County Government", type: "Government", desc: "County-level governance structures supporting registered community organizations and development agendas.", abbr: "CG" },
-  { name: "Partner Organization", type: "Partner", desc: "We are actively seeking strategic partners. Reach out to explore how we can work together.", abbr: "+" },
+  { name: "Become a Partner", type: "Open", desc: "We are actively seeking strategic partners. Reach out to explore how we can work together.", abbr: "+" },
 ];
 
 export default function PartnersPage() {
@@ -28,7 +28,7 @@ export default function PartnersPage() {
       <PageHero
         eyebrow="Who We Are"
         title="Our Partners"
-        subtitle="We believe in the power of collaboration. Our partners share our vision of a Kenya where every young person can thrive and contribute."
+        subtitle="We believe in the power of collaboration. Our partners share our vision where every young person can thrive and contribute."
         crumbs={[{ label: "Partners", href: "/partners" }]}
       />
 
@@ -36,7 +36,7 @@ export default function PartnersPage() {
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-2">Working Together</p>
+            <h1 className="text-[#29b6c8] text-4xl font-bold uppercase tracking-[0.2em] mb-2">Working Together</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A]">Organizations We Work With</h2>
             <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mt-4" />
           </div>
@@ -60,7 +60,7 @@ export default function PartnersPage() {
       {/* Become a partner CTA */}
       <section className="py-20 bg-slate-50">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-3">Get Involved</p>
+          <h1 className="text-[#29b6c8] text-2xl font-bold uppercase tracking-[0.2em] mb-3">Get Involved</h1>
           <h2 className="text-4xl font-black text-[#1E3A4A] mb-4">Become a Partner</h2>
           <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mb-6" />
           <p className="text-slate-500 text-sm leading-relaxed mb-8 max-w-xl mx-auto">

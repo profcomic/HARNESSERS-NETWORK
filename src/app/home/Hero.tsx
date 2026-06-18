@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section
@@ -55,12 +57,11 @@ export default function Hero() {
                 Kenyan Self Help Group uniting youth to build skills, generate income, and uplift our
                 communities together.
             </p>
-            <a 
-              href="#about" 
+            <Link href="/about#Our-Story" 
               className="text-[#29b6c8] hover:text-[#1E3A4A] text-sm font-bold tracking-wide underline decoration-2 transition-colors"
             >
               Learn more
-            </a>
+            </Link>
           </div>
           <div 
             className="md:col-span-2 relative p-8 md:p-12 flex flex-col justify-center items-center text-center min-h-[250px] md:min-h-[300px] bg-cover bg-center"
@@ -74,12 +75,11 @@ export default function Hero() {
               <h3 className="text-3xl font-black tracking-widest text-white uppercase leading-none mb-6">
                 BECOME A<br />MEMBER
               </h3>
-              <a 
-                href="#membership" 
+              <Link href="/join" 
                 className="bg-white hover:bg-gray-100 text-[#CC5A43] font-bold text-xs tracking-wider uppercase px-8 py-3 rounded-full shadow-md transition-all transform hover:scale-105"
               >
                 JOIN US NOW
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -11,9 +11,9 @@ export default function Partners() {
     <section className="py-16 bg-slate-100">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
-          <h2 className="text-2xl font-black text-[#1E3A4A] uppercase tracking-[0.15em]">
+          <h1 className="text-5xl font-black text-[#1E3A4A] uppercase tracking-[0.15em]">
             Our Partners
-          </h2>
+          </h1>
           <div className="w-8 h-0.5 bg-[#F5C518] mx-auto mt-3" />
         </div>
 

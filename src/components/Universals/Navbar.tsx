@@ -35,6 +35,7 @@ const navItems: NavItem[] = [
       { label: "Join Us", href: "/join" },
       { label: "Donate", href: "/donate" },
       { label: "Careers", href: "/careers" },
+      { label: "Blog", href: "/blog" },
     ],
   },
 ];

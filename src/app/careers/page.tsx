@@ -10,7 +10,9 @@ const openings = [
   { type: "Volunteer", title: "Community Outreach Volunteer", location: "Mombasa (Field)", commitment: "Weekends / Part-time", desc: "Help coordinate community events, charity drives, and environmental campaigns. Ideal for passionate youth wanting hands-on impact experience." },
   { type: "Volunteer", title: "Social Media & Content Volunteer", location: "Remote", commitment: "5 hrs/week", desc: "Create engaging content for our social media channels, draft newsletters, and help tell the Harnessers story to the world." },
   { type: "Contract", title: "Skills Trainer — Financial Literacy", location: "Mombasa", commitment: "Occasional workshops", desc: "Deliver financial literacy, budgeting, and savings workshops to group members. Must have relevant background in finance or business." },
-  { type: "Internship", title: "Program Coordination Intern", location: "Mombasa", commitment: "3 months", desc: "Support the Organizing Secretary in planning and executing group programs. Great for students in social work, community development, or project management." },
+  { type: "Volunteer", title: "Program Coordination Intern", location: "Mombasa", commitment: "3 months", desc: "Support the Organizing Secretary in planning and executing group programs. Great for students in social work, community development, or project management." },
+  { type: "Contract", title: "Skills Trainer — Digital Literacy", location: "Mombasa", commitment: "Occasional workshops", desc: "Deliver technological literacy, facilitating and tutoring members. Must have relevant background in IT related fields." },
+  { type: "Internship", title: "Auditor General", location: "Mombasa", commitment: "Auditing  Organization's Assets", desc: "Must have a core backgroung in CPA fields." },
 ];
 
 const typeColors: Record<string, string> = {
@@ -37,11 +39,11 @@ export default function CareersPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-3">Why Work With Us</p>
+            <h1 className="text-[#29b6c8] text-4xl font-bold uppercase tracking-[0.2em] mb-3">Why Work With Us</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A] leading-tight mb-6">Be part of something that matters</h2>
             <div className="space-y-4">
               {[
-                ["🌍", "Real Community Impact", "Your work directly reaches youth and families in Nairobi and beyond."],
+                ["🌍", "Real Community Impact", "Your work directly reaches youth and families in Mombasa and beyond."],
                 ["📈", "Grow Your Skills", "Gain hands-on experience in program management, communications, and community development."],
                 ["🤝", "Supportive Team", "Work alongside a dedicated committee and a growing network of passionate members."],
                 ["📜", "Reference & Experience", "Volunteering and contract roles include official letters of engagement and performance references."],
@@ -69,7 +71,7 @@ export default function CareersPage() {
       <section className="py-20 bg-slate-50">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-[#29b6c8] text-xs font-bold uppercase tracking-[0.2em] mb-2">Open Positions</p>
+            <h1 className="text-[#29b6c8] text-2xl font-bold uppercase tracking-[0.2em] mb-2">Open Positions</h1>
             <h2 className="text-4xl font-black text-[#1E3A4A]">Current Opportunities</h2>
             <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mt-4" />
           </div>
