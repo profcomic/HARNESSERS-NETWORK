@@ -14,7 +14,7 @@ const partners = [
   { name: "PalmGold Agency", type: "Partner", desc: "An agency supporting Harnessers with mentorship and capacity-building initiatives.", abbr: "PGA" },
   { name: "Shofco Organization", type: "Community", desc: "A leading grassroots organization collaborating with Harnessers on community development programs.", abbr: "SHOFCO" },
   { name: "County Government", type: "Government", desc: "County-level governance structures supporting registered community organizations and development agendas.", abbr: "CG" },
-  { name: "Become a Partner", type: "Open", desc: "We are actively seeking strategic partners. Reach out to explore how we can work together.", abbr: "+" },
+  { name: "Become a Partner", type: "Open", desc: "We are actively seeking strategic partners. Reach out to explore how we can work together.", abbr: "+"},
 ];
 
 export default function PartnersPage() {
@@ -60,13 +60,13 @@ export default function PartnersPage() {
       {/* Become a partner CTA */}
       <section className="py-20 bg-slate-50">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h1 className="text-[#29b6c8] text-2xl font-bold uppercase tracking-[0.2em] mb-3">Get Involved</h1>
+          <h1 className="text-[#29b6c8] text-3xl font-bold uppercase tracking-[0.2em] mb-3">Get Involved</h1>
           <h2 className="text-4xl font-black text-[#1E3A4A] mb-4">Become a Partner</h2>
           <div className="w-10 h-0.5 bg-[#F5C518] mx-auto mb-6" />
           <p className="text-slate-500 text-sm leading-relaxed mb-8 max-w-xl mx-auto">
             We are always looking for organizations, businesses, and institutions that share our passion for youth empowerment. If you are interested in partnering with Harnessers, we would love to hear from you.
           </p>
-          <Link href="mailto:harnessersyouthnetwork@gmail.com" className="inline-block bg-[#1E3A4A] hover:bg-[#29b6c8] text-white font-bold px-8 py-4 rounded-lg transition-colors tracking-wide text-sm uppercase">
+          <Link href="/contact" className="inline-block bg-[#1E3A4A] hover:bg-[#29b6c8] text-white font-bold px-8 py-4 rounded-lg transition-colors tracking-wide text-sm uppercase">
             Contact Us to Partner →
           </Link>
         </div>

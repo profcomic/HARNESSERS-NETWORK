@@ -4,7 +4,7 @@ export default function DonateBanner() {
   return (
     <section
       className="relative py-14 bg-cover bg-center overflow-hidden"
-      style={{ backgroundImage: "url('/images/donate-bg.png')" }}
+      style={{ backgroundImage: "url('/images/backgrounds/donate-bg.png')" }}
     >
       {/* Dark terracotta overlay — matching Ujima's reddish-brown tint */}
       <div className="absolute inset-0 bg-[#8B3A2A]/80" />

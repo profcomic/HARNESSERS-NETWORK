@@ -94,7 +94,7 @@ export default function AboutPage() {
         </div>
         <div className="bg-[#29b6c8] px-12 py-16">
           <h2 className="text-white/70 text-2xl font-bold uppercase tracking-widest mb-3">Our Vision</h2>
-          <h3 className="text-white font-black text-2xl mb-4 leading-snug">A Kenya where every young person maximizes their potential.</h3>
+          <h3 className="text-white font-black text-2xl mb-4 leading-snug">A Community where every young person maximizes their potential.</h3>
           <p className="text-white/80 text-sm leading-relaxed">We envision self-reliant communities where youth are not just participants but leaders, contributors, and change-makers supported by strong peer networks.</p>
         </div>
       </section>

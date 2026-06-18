@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="min-h-screen relative flex flex-col justify-between overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url('/images/herosection-bg.png')",
+        backgroundImage: "url('/images/backgrounds/herosection-bg.png')",
       }}
     >
       {/* Decorative circles */}
@@ -65,7 +65,7 @@ export default function Hero() {
           </div>
           <div 
             className="md:col-span-2 relative p-8 md:p-12 flex flex-col justify-center items-center text-center min-h-[250px] md:min-h-[300px] bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/join-us.png')" }}
+            style={{ backgroundImage: "url('/images/backgrounds/join-us.png')" }}
           >
             {/* Overlay color tint */}
             <div className="absolute inset-0 bg-[#CC5A43]/80 mix-blend-multiply" />

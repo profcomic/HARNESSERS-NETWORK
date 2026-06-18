@@ -26,7 +26,7 @@ export default function WorkInAction() {
           {/* Video Poster Thumbnail Background Layout Overlay */}
           <div 
             className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105 bg-gradient-to-br from-[#0D2235] to-[#2E5F7A]"
-            style={{ backgroundImage: "url('/images/herosection-bg.png')" }}
+            style={{ backgroundImage: "url('/images/backgrounds/herosection-bg.png')" }}
           />
           
           {/* Soft Tint Overlay Layer containing Interactive Play Actions */}

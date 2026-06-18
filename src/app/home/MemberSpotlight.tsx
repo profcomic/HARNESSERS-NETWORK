@@ -6,7 +6,7 @@ export default function MemberSpotlight() {
       {/* Left: photo — replace bg with actual member photo when available */}
       <div
         className="relative bg-cover bg-center bg-gradient-to-br from-[#1A3D5C] to-[#2E5F7A] min-h-[320px]"
-        style={{ backgroundImage: "url('/images/join-us.png')" }}
+        style={{ backgroundImage: "url('/images/backgrounds/join-us.png')" }}
       >
         {/* Tint overlay for legibility and brand consistency */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#1A3D5C]/85 to-[#2E5F7A]/70" />

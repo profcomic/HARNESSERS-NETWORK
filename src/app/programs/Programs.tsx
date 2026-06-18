@@ -34,41 +34,78 @@ const programs = [
 export default function Programs() {
   return (
     <section className="w-full flex flex-col">
-      {/* Top Header Bar Container */}
-      <div className="w-full bg-[#eaeaea] py-8 md:py-12 border-b border-gray-200 text-center">
-        <h1 className="text-3xl md:text-4xl font-black uppercase tracking-[0.15em] text-[#1E3A4A]">
+      {/* Header */}
+      <div className="w-full bg-[#eaeaea] py-10 md:py-14 border-b border-gray-200 text-center">
+        <h1 className="text-3xl md:text-5xl font-black uppercase tracking-[0.15em] text-[#1E3A4A]">
           What We Stand For
         </h1>
-        <p className="text-xl lg:text-xl font-black text-[#1A3D5C]">
-            Our Core Programs
+
+        <div className="w-16 h-1 bg-[#F5C518] mx-auto mt-4 rounded-full" />
+
+        <h2 className="mt-5 text-xl lg:text-2xl font-black text-[#1A3D5C]">
+          Our Core Programs
+        </h2>
+
+        <p className="max-w-2xl mx-auto mt-4 text-slate-600 leading-relaxed">
+          Through strategic programs and community-driven initiatives,
+          Harnessers Youth Network empowers individuals, strengthens families,
+          and creates sustainable opportunities for growth and development.
         </p>
-       
       </div>
-      {/* Main Scenery Content Container */}
+
+      {/* Background Section */}
       <div
-        className="w-full bg-cover bg-center relative py-16 md:py-24 px-6 flex items-center justify-center min-h-[550px]"
+        className="relative w-full bg-cover bg-center py-20 md:py-28 px-6"
         style={{
-          backgroundImage: "url('/images/howwedoit-bg.png')", 
+          backgroundImage:
+            "url('/images/backgrounds/howwedoit-bg.png')",
         }}
       >
-        {/* Subtle overlay layer to make text and cards pop over the landscape background */}
-        <div className="absolute inset-0 bg-black/5 pointer-events-none" />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-[#1A3D5C]/70" />
 
-        {/* programs cards */}
-         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {programs.map(({ icon, title, desc }) => (
-            <div
-              key={title}
-              className="group p-8 rounded-xl border border-slate-200 hover:border-[#B8952A] hover:-translate-y-1 hover:shadow-xl hover:shadow-[#1A3D5C]/10 transition-all duration-200 cursor-default"
-            >
-              <div className="text-3xl mb-4">{icon}</div>
-              <h3 className="text-[#1A3D5C] font-bold text-lg mb-2">{title}</h3>
-              <p className="text-slate-500 text-sm leading-relaxed">{desc}</p>
-            </div>
-          ))}
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {programs.map(({ icon, title, desc }) => (
+              <div
+                key={title}
+                className="
+                  group
+                  bg-white/50
+                  backdrop-blur-sm
+                  rounded-2xl
+                  p-8
+                  shadow-xl
+                  border
+                  border-white/10
+                  hover:bg-[#1E3A4A]
+                  hover:-translate-y-2
+                  hover:shadow-2xl
+                  transition-all
+                  duration-300
+                "
+              >
+                {/* Icon */}
+                <div className="text-5xl mb-5">{icon}</div>
+
+                {/* Title */}
+                <h3 className="text-[#1A3D5C] group-hover:text-white font-black text-xl mb-3 transition-colors">
+                  {title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-slate-600 group-hover:text-slate-200 leading-relaxed transition-colors">
+                  {desc}
+                </p>
+
+                {/* Accent Line */}
+                <div className="mt-6 w-12 h-1 bg-[#F5C518] rounded-full group-hover:w-24 transition-all duration-300" />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 }
-

@@ -7,7 +7,7 @@ const pillars = [
 export default function About() {
   return (
     <section id="who-we-are" className="relative p-8 md:p-12 lg:p-20 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/join-us.png')" }}
+            style={{ backgroundImage: "url('/images/backgrounds/join-us.png')" }}
     >
        {/* Overlay color tint for legibility */}
       <div className="absolute inset-0 bg-[#1E3A4A]/85" />

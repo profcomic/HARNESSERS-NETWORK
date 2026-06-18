@@ -47,7 +47,7 @@ export default function HowWeDoIt() {
       <div
         className="w-full bg-cover bg-center relative py-16 md:py-24 px-6 flex items-center justify-center min-h-[550px]"
         style={{
-          backgroundImage: "url('/images/howwedoit-bg.png')", 
+          backgroundImage: "url('/images/backgrounds/howwedoit-bg.png')", 
         }}
       >
         {/* Subtle overlay layer to make text and cards pop over the landscape background */}
