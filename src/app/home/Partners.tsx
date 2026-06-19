@@ -4,7 +4,7 @@ import Link from "next/link";
 const partners = [
   {
     name: "Phroneo Spectacular Space",
-    logo: "/images/partners/phroneo.png",
+    logo: "/images/partners/pss-logo.png",
   },
   {
     name: "Women Of Value",
@@ -12,15 +12,15 @@ const partners = [
   },
   {
     name: "PalmGold Agency",
-    logo: "/images/partners/palmgold.png",
+    logo: "/images/partners/palmgold-logo.png",
   },
   {
     name: "SHOFCO",
-    logo: "/images/partners/shofco.png",
+    logo: "/images/partners/shofco-logo.png",
   },
   {
-    name: "County Government",
-    logo: "/images/partners/county.png",
+    name: "Mombasa County Government",
+    logo: "/images/partners/dept-of-youths-msa-county.png",
   },
 ];
 
