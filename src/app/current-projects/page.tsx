@@ -7,6 +7,7 @@ import Navbar from "@/components/Universals/Navbar";
 import SocialSidebar from "@/components/Universals/SocialSidebar";
 
 const projects = [
+  { tag: "Active", color: "bg-yellow-100 text-yellow-700", title: "Harnessers Food Garden Initiative", location: "Mombasa", desc: "Our Flagship community project aimed at improving food security, promoting environmental stewardship, and creating practical learning opportunities for young people.Through sustainable farming techniques, herb cultivation, and vegetable production, members gain valuable agricultural skills while contributing to household nutrition and community resilience.", goal: "Nill", raised: "N/A", pct: 100 },
   { tag: "Upcoming", color: "bg-green-100 text-green-700", title: "Youth Skills Bootcamp 2027", location: "Mombasa", desc: "A 6-week intensive bootcamp covering digital literacy, financial management, and entrepreneurship for 50 registered members.", goal: "Ksh 120,000", raised: "Ksh 30,000", pct: 20 },
   { tag: "Active", color: "bg-green-100 text-green-700", title: "Community Tree-Planting Drive", location: "Mombasa Environs", desc: "Planting Atleast 500 indigenous trees across three local schools in partnership with the County Environment Office.", goal: "Ksh 45,000", raised: "Ksh 45,000", pct: 100 },
   { tag: "Active", color: "bg-yellow-100 text-yellow-700", title: "Holiday Food Drive", location: "Mombasa", desc: "Annual December food collection and distribution drive targeting 200 vulnerable households in our community.", goal: "Ksh 60,000", raised: "Ksh 5,000", pct: 1 },

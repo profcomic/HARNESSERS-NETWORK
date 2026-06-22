@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 const projectStats = [
   { value: "2026", label: "Launch Year" },
   { value: "2", label: "Active Projects" },
@@ -45,8 +48,9 @@ export default function SpotlightProject() {
             ))}
           </div>
         </div>
-
+         
         {/* Project Card */}
+      <div>
         <div className="relative">
           <div className="bg-gradient-to-br from-[#1A3D5C] to-[#2E5F7A] rounded-2xl p-10 shadow-2xl shadow-[#1A3D5C]/30">
             <div className="text-5xl mb-5">🌱</div>
@@ -67,10 +71,19 @@ export default function SpotlightProject() {
               </p>
             </div>
           </div>
-
-          <div className="absolute -bottom-4 -right-4 w-20 h-20 rounded-full bg-[#B8952A]/15 -z-10" />
+           <div className="text-center mt-14">
+            <Link
+              href="/current-projects"
+              className="inline-block bg-[#1E3A4A] hover:bg-[#29b6c8] text-white px-8 py-4 rounded-xl font-bold uppercase tracking-wider transition-colors"
+            >
+              See More Projects
+            </Link>
+        </div>
         </div>
 
+          <div className="absolute -bottom-2 -right-4 w-5 h-8 rounded-full bg-[#B8952A]/15 -z-10" />
+        </div>
+       
       </div>
     </section>
   );

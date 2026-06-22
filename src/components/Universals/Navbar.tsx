@@ -12,7 +12,7 @@ type NavItem = {
 
 const navItems: NavItem[] = [
   {
-    label: "Who We Are",
+    label: "WHO WE ARE",
     children: [
       { label: "About", href: "/about" },
       { label: "Team", href: "/team" },
@@ -20,7 +20,7 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    label: "What We Do",
+    label: "WHAT WE DO",
     children: [
       { label: "Programs", href: "/programs" },
       { label: "Current Projects", href: "/current-projects" },
@@ -30,12 +30,10 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    label: "Get Engaged",
+    label: "GET ENGAGED",
     children: [
       { label: "Join Us", href: "/join" },
-      { label: "Donate", href: "/donate" },
       { label: "Careers", href: "/careers" },
-      { label: "Blog", href: "/blog" },
     ],
   },
 ];
@@ -126,6 +124,16 @@ export default function Navbar() {
           ))}
         </div>
 
+         {/* BLOG button — full height */}
+        <div className="hidden md:flex flex-shrink-0 items-stretch">
+          <Link
+            href="/blog"
+            className="flex items-center px-12 bg-[#29b6c8] hover:bg-white text-[#1E3A4A] font-black text-sm tracking-[0.15em] uppercase transition-colors h-full"
+          >
+            BLOG
+          </Link>
+        </div>
+
         {/* DONATE button — full height */}
         <div className="hidden md:flex flex-shrink-0 items-stretch">
           <Link
@@ -185,6 +193,12 @@ export default function Navbar() {
               )}
             </div>
           ))}
+          <Link
+            href="/blog"
+            className="block text-center bg-[#29b6c8] text-[#1E3A4A] font-black text-sm tracking-widest uppercase px-6 py-4 m-4 rounded-lg"
+          >
+            BLOG
+          </Link>
           <Link
             href="/donate"
             className="block text-center bg-[#F5C518] text-[#1E3A4A] font-black text-sm tracking-widest uppercase px-6 py-4 m-4 rounded-lg"

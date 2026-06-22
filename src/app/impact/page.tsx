@@ -178,7 +178,7 @@ export default function ImpactPage() {
               href="/impact-gallery"
               className="inline-block bg-[#1E3A4A] hover:bg-[#29b6c8] text-white px-8 py-4 rounded-xl font-bold uppercase tracking-wider transition-colors"
             >
-              View Full Gallery →
+              View Our Gallery →
             </Link>
           </div>
         </div>

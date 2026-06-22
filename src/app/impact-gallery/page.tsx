@@ -7,18 +7,27 @@ import ChatWithUs from "@/components/Universals/ChatWithUs";
 import Image from "next/image";
 
 const photos = [
-  "/images/gallery/gallery1.jpg",
-  "/images/gallery/gallery2.jpg",
-  "/images/gallery/gallery3.jpg",
-  "/images/gallery/gallery4.jpg",
-  "/images/gallery/gallery5.jpg",
-  "/images/gallery/gallery6.jpg",
-  "/images/gallery/gallery7.jpg",
-  "/images/gallery/gallery8.jpg",
-  "/images/gallery/gallery9.jpg",
-  "/images/gallery/gallery10.jpg",
-  "/images/gallery/gallery11.jpg",
-  "/images/gallery/gallery12.jpg",
+  "/images/projects/food-garden/mboga1.jpg",
+  "/images/projects/food-garden/mboga2.jpg",
+  "/images/projects/food-garden/mboga3.jpg",
+  "/images/projects/food-garden/mboga4.jpg",
+  "/images/projects/food-garden/mboga5.jpg",
+  "/images/projects/food-garden/mboga6.jpg",
+  "/images/projects/food-garden/mboga7.jpg",
+  "/images/projects/food-garden/mboga9.jpg",
+  "/images/projects/food-garden/mboga10.jpg",
+  "/images/projects/food-garden/mboga11.jpg",
+  "/images/projects/food-garden/mboga12.jpg",
+  "/images/projects/food-garden/mboga13.jpg",
+  "/images/projects/food-garden/mboga14.jpg",
+  "/images/projects/food-garden/mboga15.jpg",
+  "/images/projects/food-garden/mboga16.jpg",
+  "/images/projects/food-garden/mboga17.jpg",
+  "/images/projects/food-garden/ground-zero1.jpg",
+  "/images/projects/food-garden/ground-zero2.jpg",
+  "/images/projects/food-garden/ground-zero3.jpg",
+  "/images/projects/food-garden/ground-zero4.jpg",
+  "/images/projects/food-garden/ground-zero5.jpg",
 ];
 
 const videos = [
@@ -37,8 +46,8 @@ export default function ImpactGalleryPage() {
 
       <PageHero
         eyebrow="Impact Gallery"
-        title="Photos & Videos"
-        subtitle="Explore moments from the RESET Project, community outreach activities, training programs, environmental initiatives, leadership forums, and member engagement events."
+        title="Real Projects - Real Impact - Lasting Solutions"
+        subtitle="Explore moments from the RECENT Project, community outreach activities, training programs, environmental initiatives, leadership forums, and member engagement events."
         crumbs={[
           { label: "Impact", href: "/impact" },
           { label: "Gallery", href: "/impact-gallery" },
@@ -60,14 +69,15 @@ export default function ImpactGalleryPage() {
 
           <p className="max-w-3xl mx-auto text-slate-500 leading-relaxed">
             Every photograph and video tells a story of empowerment,
-            collaboration, leadership, community service, and positive
-            transformation. These moments reflect the spirit and impact
-            of Harnessers Youth Network.
+            collaboration, leadership, community service, Current & 
+            finished projects and positive transformation. These 
+            moments reflect the spirit and impact of Harnessers Youth 
+            Network.
           </p>
         </div>
       </section>
 
-      {/* Photo Gallery */}
+      {/* Photo Food Garden */}
       <section className="pb-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
 
@@ -77,11 +87,11 @@ export default function ImpactGalleryPage() {
             </h2>
 
             <span className="text-sm text-slate-500">
-              {photos.length} Photos
+              {photos.length} Food Garden Initiative
             </span>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5">
             {photos.map((photo, index) => (
               <div
                 key={index}

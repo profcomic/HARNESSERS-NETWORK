@@ -28,7 +28,7 @@ export default function MemberSpotlight() {
             young women from her village and is saving to expand.
           </p>
           <Link
-            href="/impact"
+            href="/blog"
             className="inline-block text-white font-bold text-sm border-b-2 border-white/50 hover:border-white pb-0.5 transition-colors"
           >
             Read more

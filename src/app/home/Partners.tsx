@@ -58,8 +58,6 @@ export default function Partners() {
               key={partner.name}
               className="
                 group
-                bg-white
-                rounded-2xl
                 shadow-sm
                 hover:shadow-xl
                 hover:-translate-y-2

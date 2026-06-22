@@ -100,7 +100,7 @@ export default function PartnersPage() {
                     <div className="w-24 h-24 bg-slate-50 border border-slate-200 rounded-2xl flex items-center justify-center overflow-hidden mb-6 mx-auto relative">
                       {/* Default Logo */}
                       <Image
-                        src="/partners/become-partner.png"
+                        src="/partners/partnering.png"
                         alt="Become a Partner"
                         width={90}
                         height={90}
@@ -113,7 +113,7 @@ export default function PartnersPage() {
                       </span>
                     </div>
                   ) : (
-                    <div className="w-24 h-24 bg-slate-50 border border-slate-200 rounded-2xl flex items-center justify-center overflow-hidden mb-6 mx-auto group-hover:scale-105 transition-transform duration-300">
+                    <div className="w-34 h-34 flex items-center justify-center overflow-hidden mb-6 mx-auto group-hover:scale-105 transition-transform duration-300">
                       <Image
                         src={partner.logo}
                         alt={partner.name}
