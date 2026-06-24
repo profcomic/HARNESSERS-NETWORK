@@ -44,7 +44,7 @@ export default function CareersPage() {
             <div className="space-y-4">
               {[
                 ["🌍", "Real Community Impact", "Your work directly reaches youth and families in Mombasa and beyond."],
-                ["📈", "Grow Your Skills", "Gain hands-on experience in program management, communications, and community development."],
+                ["📈", "Grow Your Skills", "Gain hands-on experience in program management, communications, community development and other crucial fields."],
                 ["🤝", "Supportive Team", "Work alongside a dedicated committee and a growing network of passionate members."],
                 ["📜", "Reference & Experience", "Volunteering and contract roles include official letters of engagement and performance references."],
               ].map(([icon, title, desc]) => (
